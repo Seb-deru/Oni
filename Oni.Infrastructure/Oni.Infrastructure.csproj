@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
@@ -8,8 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Oni.Application\Oni.Application.csproj" />
-    <ProjectReference Include="..\Oni.Infrastructure\Oni.Infrastructure.csproj" />
-    <ProjectReference Include="..\Oni.ServiceDefaults\Oni.ServiceDefaults.csproj" />
   </ItemGroup>
 
 </Project>
